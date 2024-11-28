@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>anna leite</title>
     <link rel="stylesheet" href="what-i-do.css" type="text/css">
+    
 </head>
 <body class="background">
     <main>
@@ -30,6 +31,12 @@
             </nav>
         </div>
     </main>
-    
+    <script type="text/javascript">
+        document.querySelector('.titre').addEventListener('click', function(e) {
+            console.log(e)
+
+            e.target.classList.add('redcircle')
+        }) 
+    </script>
 </body>
 </html>

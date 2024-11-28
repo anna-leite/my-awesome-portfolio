@@ -5,6 +5,11 @@ body {
     height: 900px;
 }
 
+
+.redcircle {
+    background: red;
+}
+
 .navigation {
     line-height: 25px;
     display: flex;
@@ -51,9 +56,10 @@ h1 {
     justify-content: flex-end;
 }
 
-.nav-projects {
+/* .nav-projects {
     font-family: ;
-}
+} */
+
 
 .background {
     background: linear-gradient(45deg, rgba(34,193,195,1) 79%, rgba(253,187,45,1) 89%);

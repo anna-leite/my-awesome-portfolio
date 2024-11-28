@@ -1,8 +1,17 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Exo';
     font-size: 15px;
     font-weight: bold;
-    height: 900px;
+}
+
+
+.redcircle {
+    background: red;
 }
 
 nav {
@@ -10,7 +19,7 @@ nav {
     display: flex;
     align-items: flex-end;
     row-gap: 10px;
-    margin: 30% 0 0 0;
+    /*margin: 30% 0 0 0;*/
     padding: 0;
     ul {
         list-style: none;
@@ -53,9 +62,10 @@ p {
 
 .background {
     background: linear-gradient(45deg, rgba(34,193,195,1) 79%, rgba(253,187,45,1) 89%);
-    animation-duration: 20s;
+    background-repeat: no-repeat;
+    /* animation-duration: 20s;
     animation-name: wave;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 @keyframes wave {

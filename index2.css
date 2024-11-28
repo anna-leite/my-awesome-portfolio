@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+/* Toujour afficher dans la page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.bordure {
+    display: block;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding: 2%;
+    margin: 2%;
+}
+
+/* Toujour afficher dans la page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+h1 {
+    display: block;
+    font-family: 'Exo';
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+/* Toujour afficher dans la page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.titre {
+    display: block;
+    font-family: 'Exo';
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la page WHO I AM --------------------------*/
+.who-i-am {
+    display: none;
+    font-size: 20px; 
+    font-family: 'Lexend Deca';
+}
+
+/* Style de la page WHO I DO --------------------------*/
+.what-i-do {
+    display: none;
+}
+
+/* Style de la page PROJET 1 --------------------------*/
+.projet1 {
+    display: none;
+}
+
+/* Style de la page PROJET 2 --------------------------*/
+.projet2 {
+    display: none;
+}
+
+/* Style de la page PROJET 3 (pour l'instant vide) --------------------------*/
+.projet3 {
+    display: none;
+}
+
+/* Style de la page STUFF IN THE POCKET --------------------------*/
+.stuff-in-the-pocket {
+    display: none;
+}
+
+/* Toujour afficher dans la page xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.menu {
+    display: block;
+    font-family: 'Chakra Petch';
+    line-height: 25px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        a {
+            text-decoration: none;
+            color: black;
+            align-self: center;
+        }
+    }
+}
