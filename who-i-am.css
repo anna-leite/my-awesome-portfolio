@@ -53,12 +53,12 @@ p {
 
 .background {
     background: linear-gradient(45deg, rgba(34,193,195,1) 79%, rgba(253,187,45,1) 89%);
-    animation-duration: 20s;
+    /* animation-duration: 20s;
     animation-name: wave;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
-@keyframes wave {
+/* @keyframes wave {
     from {
         background: linear-gradient(45deg, rgba(34,193,195,1) 76%, rgba(253,187,45,1) 80%);
     }
@@ -262,4 +262,4 @@ p {
     to {
         background: linear-gradient(45deg, rgba(34,193,195,1) 74%, rgba(253,187,45,1) 80%);  
     }
-}
+} */

@@ -62,7 +62,7 @@ h1 {
     animation-iteration-count: infinite; */
 }
 
-@keyframes wave {
+/* @keyframes wave {
     from {
         background: linear-gradient(45deg, rgba(34,193,195,1) 76%, rgba(253,187,45,1) 80%);
     }
@@ -266,4 +266,4 @@ h1 {
     to {
         background: linear-gradient(45deg, rgba(34,193,195,1) 74%, rgba(253,187,45,1) 80%);  
     }
-}
+} */
